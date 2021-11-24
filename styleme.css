@@ -1,0 +1,32 @@
+body {
+    background-color: #DCF8FF;
+}
+h3 {
+    font-family: "Arial Black";
+}
+ul {
+    color: #0017FF;
+}
+li a {
+    text-decoration: none;
+    color: #FF1111;
+}
+li a:hover{
+    text-decoration: underline;
+}
+p:first-letter {
+    font-size: 1.5em;
+}
+#main {
+    padding: 15px;
+}
+fieldset {
+    width: 300px;
+    text-align: center;
+}
+ol {
+    counter-reset:item 6; /* one higher than you need */
+}
+ol > li {
+    counter-increment:item -1;
+}
