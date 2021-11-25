@@ -24,9 +24,6 @@ fieldset {
     width: 300px;
     text-align: center;
 }
-ol {
-    counter-reset:item 6; /* one higher than you need */
-}
 ol > li {
     counter-increment:item -1;
 }
