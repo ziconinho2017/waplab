@@ -24,6 +24,11 @@ fieldset {
     width: 300px;
     text-align: center;
 }
-ol > li {
-    counter-increment:item -1;
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.detail li {
+    flex: 0 0 auto;
+    list-style-type: none;
 }
